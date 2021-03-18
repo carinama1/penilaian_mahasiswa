@@ -73,6 +73,7 @@ const Main = () => {
       ...formValue,
       [dynAs]: { ...formValue[dynAs], [dynStud]: value },
     };
+    setIsSubmitted(false);
     setFormValue(newFormValue);
   };
 
