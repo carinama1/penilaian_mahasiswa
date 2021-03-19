@@ -1,6 +1,6 @@
 import React from "react";
 
-export const DisplayResults = (results) => {
+export const DisplayResults = ({ results }) => {
   return (
     <div style={{ margin: "1rem 0" }}>
       <h3 style={{ fontFamily: "monospace" }}>Results</h3>
